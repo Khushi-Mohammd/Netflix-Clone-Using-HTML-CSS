@@ -87,6 +87,13 @@ nav {
   width: 70px;
   margin-left: 10px;
   font-weight: 700;
+  transition-duration: 250ms;
+  transition-property: background-color, border-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.68, 0.06);
+}
+
+.nav-lang-btn:hover {
+  background: rgb(193, 17, 25);
 }
 
 .center-content {
@@ -158,6 +165,13 @@ nav {
   border-radius: 5px;
   border: none;
   height: 57px;
+  transition-duration: 250ms;
+  transition-property: background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.68, 0.06);
+}
+
+.inp-btn:hover {
+    background: rgb(193, 17, 25);
 }
 
 .curved-line {
